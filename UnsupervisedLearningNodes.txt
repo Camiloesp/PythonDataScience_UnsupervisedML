@@ -1,0 +1,62 @@
+Unsupervised Learning Techniques:
+There are two popular categories of unsupervised learning techniques:
+- Clustering: Identifying groups (or clusters) of data points that are similar to one another but distinct from other groups.
+	Common Techniques:
+	- K-Means Clustering.
+	- Hierarchical Clustering.
+	- DBSCAN (Density-Based Clustering)
+	
+	Applications:
+	- Clustering / Segmentation.
+	- Anomaly Detection. Identiying rare points in a data set that deviate significantly from the rest.
+		- Clustering Techniques.
+		- Isolation Forests.
+	- Recommenders.Suggesting items to users based on their preferences or behaviors.
+		- Clustering Techniques
+		- Dimensionality Reduction Techniques.
+
+- Dimensionality Reduction: Reducing the number of columns (or dimensions) in a data set while losing as little information as possible.
+	Common Techniques:
+	- PCA (Principal Component Analysis)
+	- t-SNE (t-Stochastic Neighbor Embedding)
+	- SVD (Singular Value Decomposition)
+
+	Applications:
+	- Feature Extraction.
+	- Data Visualization.
+	- Recommenders.
+
+Data Science Workflow. This is non-linear
+1) Scoping a project
+2) Gathering data
+3) Cleaning data
+4) Exploring data
+5) Modeling data
+6) Sharing insights
+
+Unsupervised Learning Workflow: This is also non-linear from step 1,2 and 3.
+1) Data Prep: Get your data ready to be input into a model.
+	- Single table, non-null, numeric data.
+	- Feature engineering, selection, and scaling.
+2) Algorithm: Apply an unsupervised learning technique.
+	- Clustering.
+	- Dimensinality Reduction.
+3) Tuning: Evaluate & tune the model using metrics and intuition.
+	- Metrics (i.e. inertia)
+	- Data visualization.
+	- Interpret the results.
+4) Selection: Pick the best results & identify any insights.
+	- Business objective.
+	- Domain expertise.
+
+
+
+
+
+
+
+
+
+
+
+
