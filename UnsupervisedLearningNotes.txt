@@ -50,8 +50,22 @@ Unsupervised Learning Workflow: This is also non-linear from step 1,2 and 3.
 	- Domain expertise.
 
 
-
-
+------------------------------------------------------------------------------------------------
+The general clustering workflow:
+1) Data Prep: Get data ready to be input into an ML model
+	- Single table, non-null values and numeric data.
+	- Feature engineering, selection and scaling.
+2) Modeling: Apply a cluster algorithm.
+	- K-Means clustering
+	- Hierarchical Clustering
+	- DBSCAN
+3) Tuning: Evaluate & tune the model using metrics and intuition.
+	- Metrics (i.e. inertia)
+	- Data Visualization
+	- Interpret the results
+4) Selection: Pick the best result and identify any insights.
+	- Business objective
+	- Domain expertise
 
 
 
