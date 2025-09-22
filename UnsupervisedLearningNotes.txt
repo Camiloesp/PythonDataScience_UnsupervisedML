@@ -49,7 +49,6 @@ Unsupervised Learning Workflow: This is also non-linear from step 1,2 and 3.
 	- Business objective.
 	- Domain expertise.
 
-
 ------------------------------------------------------------------------------------------------
 The general clustering workflow:
 1) Data Prep: Get data ready to be input into an ML model
@@ -66,6 +65,42 @@ The general clustering workflow:
 4) Selection: Pick the best result and identify any insights.
 	- Business objective
 	- Domain expertise
+
+------------------------------------------------------------------------------------------------
+Anomaly Detection  (Also known as Outlier Detection)
+Used to identify observations in a data set that are significantly different from the others.
+Anomaly detection happens either in the cleaning data step, modeling data step or both.
+Approaches:
+- Statistical analysis: flagothan 3 standard deviations away from the mean.
+- Data visualization: visually identifying distant points by creating histograms, scatterplots, or boxplots.
+- Supervised learning: if you have information on past anomalies, you can apply classification algorithms like Random Forests to identify new ones.
+- Unsupervised learning: if you have unlabeled data, you need algorithms like Isolation Forests and DBSCAN
+[Many machine learning algorithms can be modified for anomaly detection including K-Nearest Neighbors, One-Class Support Vector Machines, Time Series Analysis, etc.]
+
+Anomaly Detection Workflow:
+1) Data Prep: Get your data ready to be input into an ML model
+    - Single table, non-null and numeric data.
+    - Feature engineering, selection and scaling.
+2) Modeling: Apply an algorithm for anomaly detection.
+    - Isolation Forests
+    - DBSCAN
+3) Tuning: Evaluate and tune the model using plots and intuition.
+    - Data visualization.
+    - Interpret the results.
+4) Selection: Pick the best results and identify any insights.
+    - Business objective.
+    - Domain expertise.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
