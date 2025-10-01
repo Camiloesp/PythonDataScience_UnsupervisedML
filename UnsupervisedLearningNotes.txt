@@ -91,6 +91,19 @@ Anomaly Detection Workflow:
     - Business objective.
     - Domain expertise.
 
+------------------------------------------------------------------------------------------------
+Dimensionality Reduction
+Involves reducing the number of columns (dimensions) in a data set while losing as little information as possible.
+Reducing the numbers of dimensions in a data set helps with these issues:
+- EDA: It's difficult for humans to visualize data with more than 2 or 3 dimensions clearly.
+- Supervised Learning: Predictive models fit on "wide" data don't perform as well as those fit on "long" data.
+- Unsupervised Learning: Data points spread out with more dimensions, and their distances become more similar (curse of dimensionality)
+
+
+
+
+
+
 
 
 
