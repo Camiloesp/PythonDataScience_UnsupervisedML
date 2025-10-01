@@ -99,7 +99,10 @@ Reducing the numbers of dimensions in a data set helps with these issues:
 - Supervised Learning: Predictive models fit on "wide" data don't perform as well as those fit on "long" data.
 - Unsupervised Learning: Data points spread out with more dimensions, and their distances become more similar (curse of dimensionality)
 
+Algorithms:
+- PCA (Principal Component Analysis): is a dimensionality reduction technique that finds linear combinations of features that explain the most variation in the data.
 
+- t-SNE
 
 
 
