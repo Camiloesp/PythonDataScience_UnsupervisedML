@@ -102,7 +102,7 @@ Reducing the numbers of dimensions in a data set helps with these issues:
 Algorithms:
 - PCA (Principal Component Analysis): is a dimensionality reduction technique that finds linear combinations of features that explain the most variation in the data.
 
-- t-SNE
+- t-SNE (t-Distributed Stochastic Neighbor Embedding): is a non-linear dimensionality reduction technique that emphasizes relationships between points.
 
 
 
