@@ -104,10 +104,25 @@ Algorithms:
 
 - t-SNE (t-Distributed Stochastic Neighbor Embedding): is a non-linear dimensionality reduction technique that emphasizes relationships between points.
 
-
-
-
-
+------------------------------------------------------------------------------------------------
+Recommenders (Recommender Systems or Recommendation Engines)
+Used to suggest personalized items to users based on their preferences.
+Two main approaches to making recommendations:
+1) Content-Based Filtering. Recommend items to users based on items with similar characteristics.
+    Popular approach: Cosine similarity. 
+                      It is a metric used to calculate the similarity between observations.
+                      The sklearn's cosine_similarity() function calculates the cosine similarity between two items (rows) in a DataFrame
+                      Values range from -1 (dissimilar) to 1 (similar).
+                      If all data points are in the first quadrant, the values will range form 0 (dissimilar) to 1 (similar).
+    Required input data:
+        - Rows: Items
+        - Columns: Item characteristics
+2) Collaborative Filtering. Recommend items to users based on the behaviors or preferences of similar users.
+    Popular approach: SVD (Singular Value Decomposition)
+    Required input data:
+        - Rows: Users
+        - Columns: Items
+There are mmany other approaches to creating recommenders.
 
 
 
