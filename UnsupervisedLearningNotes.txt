@@ -118,10 +118,12 @@ Two main approaches to making recommendations:
         - Rows: Items
         - Columns: Item characteristics
 2) Collaborative Filtering. Recommend items to users based on the behaviors or preferences of similar users.
+- User-Based: Finds users that like the same songs as me and recommend other songs they like.
+- Item-Based: Finds songs similar to songs that I like and recommend those songs.
+
     Popular approaches: 
-                        - SVD (Singular Value Decomposition)
-                        - User-Based: Finds users that like the same songs as me and recommend other songs they like.
-                        - Item-Based: Finds songs similar to songs that I like and recommend those songs.
+                - SVD (Singular Value Decomposition): is a matrix factorization technique used to decompose the user-item matrix (X) into three other matrices.
+                        
     Required input data:
         - Rows: Users
         - Columns: Items
