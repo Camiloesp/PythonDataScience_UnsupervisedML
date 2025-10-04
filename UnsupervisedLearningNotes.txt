@@ -1,3 +1,4 @@
+https://www.udemy.com/course/data-science-in-python-unsupervised-learning/learn/lecture/43382022#questions
 Unsupervised Learning Techniques:
 There are two popular categories of unsupervised learning techniques:
 - Clustering: Identifying groups (or clusters) of data points that are similar to one another but distinct from other groups.
@@ -29,10 +30,11 @@ There are two popular categories of unsupervised learning techniques:
 Data Science Workflow. This is non-linear
 1) Scoping a project
 2) Gathering data
-3) Cleaning data
-4) Exploring data
-5) Modeling data
+3) Cleaning data* (Anomaly detection)
+4) Exploring data* (Data Visualization)
+5) Modeling data* (Feature Extraction, Clustering, Anomaly Detection, Recommenders)
 6) Sharing insights
+(* can use unsupervised learning here)
 
 Unsupervised Learning Workflow: This is also non-linear from step 1,2 and 3.
 1) Data Prep: Get your data ready to be input into a model.
